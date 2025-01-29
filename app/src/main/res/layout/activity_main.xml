@@ -16,7 +16,7 @@
         android:layout_gravity="center"
         android:textSize="36sp"
         android:textStyle="bold"
-        android:layout_margin="10dp"/>
+        android:layout_margin="30dp"/>
 
     <TextView
         android:id="@+id/temperatureText"
@@ -112,8 +112,7 @@
         android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
         android:elevation="12dp"
-        android:src="@drawable/ic_01n"
-        android:visibility="gone"
+        android:src="@drawable/sun"
         android:contentDescription="@string/weather_icon"
         android:layout_marginTop="20dp"/>
 
